@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Saad Ferozee"/>
+    <meta name="author" content="Saad Ferozee" />
     <title>Tea House | Homepage</title>
 
     <!-- tailwind cdn -->
@@ -18,8 +19,30 @@
     <link rel="stylesheet" href="styles/style.css">
 
 </head>
-<body>
-    <h1 class="border border-blue-500 bg-gray-300 container mx-auto font-manrope">happy family <span><i class="fa-solid fa-house"></i></span></h1>
-    <p class="font-manrope">this is a website. I want to read something. yes, it just make preview without reloading. awesome.</p>
+
+<body class="font-manrope">
+
+    <!-- header section starts here -->
+    <header>
+        <div class="header-container w-[80%] mt-[64px] mx-auto flex-auto md:flex justify-between">
+            <div class="header-texts md:w-[48%] mb-[64px]">
+                <h1 class="font-extrabold text-[80px]">It's good <br> tea time at The <br> Tea House</h1>
+                <p class="mb-5 font-medium text-lg text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="w-[200px] h-[64px] rounded-xl bg-gradient-to-l to-[#ff0000] from-[#ff8938] text-white">Explore More <span><i class="fa-solid fa-arrow-right -rotate-45"></i></span></button>
+            </div>
+            <div class="header-image relative md:w-[50%] mt-[52px]">
+                <img class="w-[100%]" src="assets/images/banner.png" alt="two cup of coffee">
+                <div class="header-image-rating px-6 py-3 absolute bottom-5 left-12 bg-white rounded-lg shadow-[12px_12px_35px_0px_#00000030] flex">
+                    <h1 class="text-[40px] text-[#ffd700] mr-3"><i class="fa-solid fa-star"></i></h1>
+                    <div>
+                        <h2 class="font-extrabold text-3xl">5.00</h2>
+                        <h3 class="font-medium text-[16px] text-[#777777]">Trust Pilot Ratings</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section ends here -->
 </body>
+
 </html>
